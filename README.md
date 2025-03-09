@@ -65,5 +65,5 @@ Pedro Gabriel Ferraz Santos Silva
 
 ## Licença
 
-MIT Lincense
+MIT License
 
