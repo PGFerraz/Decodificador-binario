@@ -41,13 +41,13 @@ $ pacman -S mingw-w64-ucrt-x86_64-gcc
 Para clonar este repositório, você deve ter o Git instalado e, em seguida, usar o comando abaixo no terminal do VSCode:
 
 ```bash
-$ git clone https://github.com/Lana-Ramos/Decodificador-Binario.git
+$ git clone https://github.com/PGFerrazs/Decodificador-binario.git
 ```
 
 Acesse a pasta do projeto:
 
 ```bash
-$ cd Conversor-analogico-digital-EmbarcaTech
+$ cd Decodificador-binario
 ```
 
 ### Compile & Run
