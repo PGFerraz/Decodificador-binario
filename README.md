@@ -60,7 +60,7 @@ Compile o projeto no ambiente do vscode ou no seu ambiente de preferência.
 
 ## Autores
 
-Lana Ramos Gomes
+Lana Ramos Gomes e
 Pedro Gabriel Ferraz Santos Silva
 
 ## Licença
