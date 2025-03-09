@@ -17,8 +17,19 @@ é obrigatório a utilização de pelo menos uma pilha no código.
 */
 using namespace std;
 
-string converter; // protótipo da classe
-// joga os conjuntos de 8 numa pilha e depois lê a pilha de cima pra baixo, convertendo
+void converter_para_decimal(stack <string>& a){
+    int decimal = 0;
+    int potencia = 1;
+    while(!a.empty()){  // Enquanto a pilha não estiver vazia
+        for(int i=0;i<7;i++){
+            decimal += a.top() * potencia;// Pega o topo da pilha (um número inteiro)
+            potencia *= 2; // multiplica por 2^0, 2^1,...
+            a.pop();
+        }
+        cout << "\nValor decimal: " << decimal;
+    }
+}
+
 int main()
 {
     string nome;
@@ -39,6 +50,7 @@ int main()
             binario_correto.push(binario_invertido.top());
             binario_invertido.pop();
         }
+        converter_para_decimal(binario_correto);
     }else {
         cerr << "Erro ao abrir o arquivo";
     }
