@@ -9,7 +9,7 @@ Este repositório contém a atividade referente ao estudo de pilhas(stack) da di
 - **Leitura de arquivos**:
   - O programa pergunta ao usuário o nome do aquivo que deseja ser lido.
   
- **Obs.:O arquivo deve estar no seguinte formato:"**
+ **Obs.:O arquivo deve estar no seguinte formato:**
 0111101
 100110010
     ...
@@ -56,7 +56,7 @@ Compile o projeto no ambiente do vscode ou no seu ambiente de preferência.
 
 ## Status do Projeto
 
-**Em andamento**
+**Concluído**
 
 ## Autores
 
